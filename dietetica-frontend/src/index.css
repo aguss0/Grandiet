@@ -1,0 +1,31 @@
+/* src/index.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --green:        #2d7a3e;
+  --green-light:  #e8f5eb;
+  --green-mid:    #4a9e5c;
+  --green-dark:   #1a5229;
+  --orange:       #e07b2a;
+  --orange-light: #fdf0e4;
+  --bg:           #f5f6f4;
+  --card:         #ffffff;
+  --border:       rgba(0,0,0,0.1);
+  --text:         #1a1a1a;
+  --muted:        #6b7280;
+  --danger:       #dc2626;
+  --warn:         #d97706;
+  --radius:       8px;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+a { text-decoration: none; color: inherit; }
