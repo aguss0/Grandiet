@@ -14,7 +14,7 @@ const reporteRoutes    = require("./routes/reporte.routes");
 const app = express();
 
 // ─── Middlewares globales ────────────────────────────────────
-app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 app.use(morgan("dev"));
 
